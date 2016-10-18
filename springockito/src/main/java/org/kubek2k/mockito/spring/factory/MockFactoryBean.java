@@ -23,7 +23,7 @@ public class MockFactoryBean<T> implements FactoryBean<T> {
     }
 
     public Class<? extends T> getObjectType() {
-        return mockClass;
+      return mockClass;
     }
 
     public boolean isSingleton() {
